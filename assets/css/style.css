@@ -1,0 +1,42 @@
+body {
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+}
+
+br {
+  clear: both;
+}
+
+h1,
+h2 {
+  font-family: "Press Start 2P", cursive;
+}
+
+h1 {
+  margin-top: 10px;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.character {
+  box-sizing: border-box;
+  background-color: white;
+  float: left;
+  width: 200px;
+  height: 150px;
+  border: 3px solid black;
+  text-align: center;
+}
+
+.character img {
+  width: 80%;
+  height: 70%;
+}
+
+#main-character,
+#enemies,
+#current-enemy {
+  float: left;
+  width: 100%;
+  height: auto;
+}
