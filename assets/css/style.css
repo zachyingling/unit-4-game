@@ -1,42 +1,65 @@
 body {
   background-image: url(../images/background.jpg);
-  background-size: cover;
+  margin-left: 20px;
 }
 
-br {
+#clear {
   clear: both;
 }
 
-h1,
-h2 {
-  font-family: "Press Start 2P", cursive;
+#header {
+  background-color: #ba7cd6;
+  display: inline;
+  padding: 10px;
+  color: black;
+  font-family: "Cinzel", serif;
+  font-size: 2rem;
 }
 
-h1 {
-  margin-top: 10px;
-  font-size: 1.6rem;
+.instructions {
+  color: #00a8a0;
+  font-size: 1.8rem;
+  font-family: "Amarante", cursive;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.random-number {
+  font-family: "Amarante", cursive;
+  float: left;
+  background-color: #00bd84;
+  height: 80px;
+  width: 120px;
   text-align: center;
 }
 
-.character {
-  box-sizing: border-box;
-  background-color: white;
+.random-number p {
+  font-size: 15px;
+  margin: 0px auto;
+}
+
+.random-number h1 {
+  margin: 0px auto;
+}
+
+.stats {
+  font-size: large;
+  font-weight: bold;
+  margin-left: 20px;
+  background-color: #00bd84;
   float: left;
+  height: 80px;
+  width: fit-content;
+  margin-bottom: 20px;
+}
+
+.crystals img {
+  height: 200px;
   width: 200px;
-  height: 150px;
-  border: 3px solid black;
-  text-align: center;
 }
 
-.character img {
-  width: 80%;
-  height: 70%;
-}
-
-#main-character,
-#enemies,
-#current-enemy {
-  float: left;
-  width: 100%;
-  height: auto;
+.user-score {
+  font-family: "Amarante", cursive;
+  background-color: #03879e;
+  width: fit-content;
 }
